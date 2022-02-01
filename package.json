@@ -1,0 +1,23 @@
+{
+  "name": "simple_app",
+  "version": "1.0.0",
+  "description": "Simple App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalbharti15/simple_app.git"
+  },
+  "author": "Vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalbharti15/simple_app/issues"
+  },
+  "homepage": "https://github.com/vishalbharti15/simple_app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

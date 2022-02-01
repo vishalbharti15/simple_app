@@ -1,17 +1,13 @@
 const express = require("express")
 var app = express()
-var port = 3010
+var port = process.env.PORT || 5000
 
 app.get("/", function(req, res){
-    res.send("<body style='background-color:grey;color:white'><h1 style='margintop:300px'><center>Welcome Page</center></h1></body>")
+    res.send("<h1><center>Welcome Page</center></h1>")
 })
 
 app.get("/about", function(req, res){
-    res.send("<body style='background-color:grey;color:white'><h1 style='margintop:300px'><center>About us Page</center></h1></body>")
-})
-
-app.get("/blog", function(req, res){
-    res.send("<body style='background-color:grey;color:white'><h1 style='margintop:300px'><center>Blog Page</center></h1></body>")
+    res.send("<h1><center>About Page</center></h1>")
 })
 
 app.listen(port, function(err){
